@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+$text-color: black;
+$first-color: rgb(29, 165, 85);
+$second-color: rgb(22, 131, 67);
+$third-color: rgb(196, 196, 196);
+$back-color: rgb(245, 245, 245);
+//===fonts ===
+@mixin font {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16pt;
+  font-weight: normal;
+}
+@mixin font-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+}
+@mixin shadow {
+  -webkit-box-shadow: 0px 8px 5px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 8px 5px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 5px -2px rgba(0, 0, 0, 0.2);
+}
+@mixin shadow-hover {
+  -webkit-box-shadow: 1px 13px 16px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 13px 16px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 13px 16px -2px rgba(0, 0, 0, 0.2);
+}
