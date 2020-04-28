@@ -90,8 +90,6 @@ export default new Vuex.Store({
         .then(response => {
           state.error = false;
           router.push("/");
-          // console.log(response.data.post);
-          // console.log(response.data.creator);
           console.log(response.data.message);
         })
         .catch(err => {
@@ -183,7 +181,6 @@ export default new Vuex.Store({
           state.error = false;
           router.push("/");
           console.log(response.data.message);
-          console.log("id: " + response.data.userId);
         })
         .catch(err => {
           state.error = true;
